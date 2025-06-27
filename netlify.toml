@@ -1,5 +1,5 @@
 [build]
-  base = "Front End/RequestMangment"
+  base = ""
   publish = "dist/request-mangment/browser"
   command = "npm install && npm run build"
 
