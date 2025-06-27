@@ -1,6 +1,6 @@
 
 [build]
-  command = "npm install && npm run build"
+  command = "npm install --legacy-peer-deps && npx @angular/cli@latest update @angular/cli @angular/core --allow-dirty --force && npm run build"
   publish = "dist/request-mangment/browser"
 
 [[plugins]]
