@@ -1,0 +1,7 @@
+[build]
+  base = "Front End/RequestMangment"
+  publish = "dist/request-mangment/browser"
+  command = "npm install && npm run build"
+
+[[plugins]]
+  package = "@netlify/angular-runtime"

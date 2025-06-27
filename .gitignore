@@ -43,3 +43,6 @@ Thumbs.db
 
 
 /.vs
+
+# Local Netlify folder
+.netlify
