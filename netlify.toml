@@ -1,14 +1,12 @@
-
 [build]
-  command = "npm install --legacy-peer-deps && npx @angular/cli@latest update @angular/cli @angular/core --allow-dirty --force && npm run build"
-  publish = "dist/request-mangment/browser"
+  command = "npm install --legacy-peer-deps && npm run build"
+  publish = "dist/request-mangment"
 
 [[plugins]]
   package = "@netlify/angular-runtime"
 
-# Optional but recommended additions:
 [build.environment]
-  NODE_VERSION = "18"  # Match your local Node version
+  NODE_VERSION = "18"
 
 [[redirects]]
   from = "/*"
