@@ -10,9 +10,10 @@ import { RegistrationService } from '../../Service/registration.service';
 
 @Component({
   selector: 'app-login',
+    standalone: true, 
   imports: [ReactiveFormsModule,NgIf],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+  styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
   loginForm: FormGroup;

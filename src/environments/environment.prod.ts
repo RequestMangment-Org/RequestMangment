@@ -1,4 +1,6 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://api.example.com'
+  apiUrl: 'http://rahhala-002-site1.jtempurl.com',
+    url: 'http://rahhala-002-site1.jtempurl.com'
+
 };

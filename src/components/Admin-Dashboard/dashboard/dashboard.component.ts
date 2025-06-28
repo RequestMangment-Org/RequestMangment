@@ -4,9 +4,10 @@ import { AuthServiceService } from '../../../Service/auth-service.service';
 
 @Component({
   selector: 'app-dashboard',
+    standalone: true, 
   imports: [RouterOutlet],
   templateUrl: './dashboard.component.html',
-  styleUrl: './dashboard.component.css'
+  styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
 

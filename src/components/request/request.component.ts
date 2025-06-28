@@ -4,7 +4,7 @@ import { CommonModule, DatePipe } from '@angular/common';
 import { RequestServiceService } from '../../Service/RequestService/request-service.service';
 import { ApplicationRequest } from '../../Interfaces/ApplicationRequest';
 import { Router } from '@angular/router';
-import { environment } from '../../environments/environments';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-request',

@@ -13,6 +13,7 @@ import { MessageModule } from 'primeng/message';
 import { CardModule } from 'primeng/card';
 @Component({
   selector: 'app-disply-requests',
+    standalone: true, 
   imports: [NgFor, NgIf, FormsModule, TableModule, ProgressSpinnerModule,CardModule,
     MessageModule,
       ToastModule,
@@ -20,7 +21,7 @@ import { CardModule } from 'primeng/card';
       ConfirmDialogModule,
       ToolbarModule],
   templateUrl: './disply-requests.component.html',
-  styleUrl: './disply-requests.component.css',
+  styleUrls: ['./disply-requests.component.css'],
   providers: [DatePipe]
 })
 export class DisplyRequestsComponent implements OnInit {

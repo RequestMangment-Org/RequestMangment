@@ -5,9 +5,10 @@ import { RegistrationService } from '../../Service/registration.service';
 
 @Component({
   selector: 'app-register-component',
+    standalone: true, 
   imports: [ReactiveFormsModule],
   templateUrl: './register-component.component.html',
-  styleUrl: './register-component.component.css'
+  styleUrls: ['./register-component.component.css']
 })
 export class RegisterComponentComponent {
   loginForm: FormGroup;

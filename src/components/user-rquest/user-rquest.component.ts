@@ -9,7 +9,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './user-rquest.component.html',
-  styleUrl: './user-rquest.component.css',
+  styleUrls: ['./user-rquest.component.css'],
   providers: [DatePipe]
 
 })

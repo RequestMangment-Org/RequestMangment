@@ -3,9 +3,9 @@ import { Injectable } from '@angular/core';
 
 import { Observable } from 'rxjs';
 import { User } from '../Interfaces/user';
-import { environment } from '../environments/environments';
 import { LoginResponse } from '../Interfaces/login-response';
 import { AuthServiceService } from './auth-service.service';
+import { environment } from '../environments/environment';
 
 @Injectable({
   providedIn: 'root'

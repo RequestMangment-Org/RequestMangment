@@ -4,9 +4,10 @@ import { NgFor, NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-about-component',
+    standalone: true, 
   imports: [NgFor,NgIf],
   templateUrl: './about-component.component.html',
-  styleUrl: './about-component.component.css'
+  styleUrls: ['./about-component.component.css']
 })
 export class AboutComponentComponent  implements OnInit {
   aboutUsList: AboutUs[] = [];

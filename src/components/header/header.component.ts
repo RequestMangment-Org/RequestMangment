@@ -8,7 +8,7 @@ import { filter } from 'rxjs';
   selector: 'app-header',
   imports: [RouterOutlet,NgIf],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
  currentRoute: string = '';
